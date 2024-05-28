@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MainWindow.App">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.Card">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAAAgEAAAAAAAAAAAEAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Classes\Game\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.DeckCards">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BCIBAIAAAgAEAQBAABAgAgAISgBAIQAAEAQAwCAAUYg=</HashCode>
+      <FileName>Classes\Game\DeckCards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.GameZone">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAEAAAAAAAAIAAAAIAAAAAAAAAAQAgAIAAQA=</HashCode>
+      <FileName>Classes\Game\GameZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.HoverCards">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAIAAAAAAQAAAEAAAAAACA=</HashCode>
+      <FileName>Classes\Game\HoverCards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.Object">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAYAA=</HashCode>
+      <FileName>Classes\Game\Object.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.Player">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.UiManager">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAcBBAIQAAQCABEQAJiBACSgFAhoAABgsAAEgQIEBwg=</HashCode>
+      <FileName>Classes\Game\UiManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.LoginManager">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAAAABBAADBAAAAAACAAAAAAAAAAQBAAkA=</HashCode>
+      <FileName>Classes\Other Pages\LoginManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.RegistrationManager">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAMAAAgAAYAAAABABABBAAAAAACIAAAgEAAAAQFAAkA=</HashCode>
+      <FileName>Classes\Other Pages\RegistrationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.SettingsManager">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAARAAAQAAAACBEQABIBAAAAAAIAAEAQBAAAA=</HashCode>
+      <FileName>Classes\Other Pages\SettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.UserSession">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Pattern\UserSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.GameEngine" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainWindow.Hub" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Hub.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainWindow.Login" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Login.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainWindow.Registration" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Registration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainWindow.Settings" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Settings.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlayerManager">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAACAAADAAAAAAIgAABAAAAAgAAAAAA=</HashCode>
+      <FileName>Classes\Game\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicPlayer">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAABAAACA4AAAAAAAAEA=</HashCode>
+      <FileName>Classes\Other Pages\MusicPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.Classes.HubManager">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAMAAAAABAAAgAABAAAgAAAQAACAAAAAiAAAAQBAAEA=</HashCode>
+      <FileName>Classes\Other Pages\HubManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.Pages.Game" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Game.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainWindow.Properties.Resources">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow.Properties.Settings">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
