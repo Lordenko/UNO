@@ -10,7 +10,7 @@ public class MusicPlayer
     {
         mediaPlayer = new MediaPlayer();
         mediaPlayer.MediaEnded += MediaPlayer_MediaEnded; // Подія для повторного відтворення
-        mediaPlayer.Open(new Uri("pack://application:,,,/Data/Tigo.mp3")); // Відкриття файлу
+        mediaPlayer.Open(new Uri("pack://application:,,,/Data/melanholia.mp3")); // Відкриття файлу
         mediaPlayer.Volume = 0.5; // Регулювання гучності за замовчуванням
     }
 
